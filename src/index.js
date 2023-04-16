@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
-
-
+import Header from './Components/Header';
+import './Styles/Styles.css'
 const App = () => (
-    <div>
-        <h1>Hello</h1>
+    <div className="hey">
+        <Header/>
 
     </div>
 
