@@ -1,9 +1,10 @@
 body {
-    margin: 0
+    margin: 0;
+    text-align: center;
 }
 
 header {
-    background: #ff6a00
+    background: #ff6a00;
 }
 
 .logo {
@@ -14,5 +15,5 @@ header {
 
 .header input {
     font-size: 20px;
-    margin: 20px 0px
+    margin: 20px 0px;
 }
