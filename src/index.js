@@ -1,63 +1,31 @@
-import React from "react";
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './Components/Header';
-import './Styles/Styles.css'
-const App = () => {
-    return (
-        <div className="hey">
-            <Header />
-        </div>
-    )
+import './styles/styles.css'
+
+import Header from './components/header';
+import NewsList from './components/news_list';
+import JSON from './db.json';
+
+
+class App extends Component {
+
+    state = {
+        news: JSON
+    }
+
+
+    render() {
+        return (
+            <div className="hey">
+                <Header />
+                <NewsList
+                    news={this.state.news}
+                />
+            </div>
+        )
+    }
 }
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App/>)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+root.render(<App />)
