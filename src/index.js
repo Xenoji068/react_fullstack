@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/styles.css'
+import './Styles/Styles.css'
 
-import Header from './components/header';
-import NewsList from './components/news_list';
+import Header from './Components/Header';
+import NewsList from './Components/NewsList';
 import JSON from './db.json';
 
 
