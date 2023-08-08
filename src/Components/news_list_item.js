@@ -1,4 +1,4 @@
-const NewsListItem = ({item}) => {
+const NewsListItem  = ({item}) => {
     return(
         <div className="news_item">
             <h3>{item.title}</h3>
@@ -9,4 +9,4 @@ const NewsListItem = ({item}) => {
     )
 }
 
-export default NewsListItem;
+export default NewsListItem ;

@@ -1,4 +1,4 @@
-import NewsListItem from "./NewsListItem";
+import NewsListItem from "./news_list_item";
 
 
 const NewsList = (props) => {
